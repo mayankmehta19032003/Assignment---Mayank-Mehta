@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to bottom right, #ebedee, #fdfbfb);
+  padding: 20px;
+}
+
+nav,
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+header img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+header input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #7e60bf;
+  background-color: transparent;
+  border-radius: 10px;
+  outline: none;
+  font-size: 16px;
+}
+
+header input::placeholder {
+  color: #7e60bf;
+}
+
+.search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-icon {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 10px;
+}
+
+.search-container input {
+  padding-left: 50px;
+}
+
+h1 {
+  font-size: 25px;
+  color: #333;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile img {
+  margin-right: 20px;
+}
+.profile p {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.profile select {
+  outline: none;
+  border: none;
+}
+
+.filter-buttons button {
+  background-color: transparent;
+  border: none;
+  padding: 8px 16px;
+  margin: 0 5px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.filter-buttons button:hover {
+  background-color: #7e60bf;
+  color: white;
+}
